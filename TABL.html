@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<?php
+if (isSet($_REQUEST[’nom’])
+and isSet($_REQUEST[’prenom’])) {
+$nom = $_REQUEST[’Diop’];
+$prenom = $_REQUEST[’Mouhamadou atoumane’];
+$adresse = $_REQUEST[’dangou residence’];
+$tel = $_REQUEST[’778691938’];
+
+
+echo "<TABLE BORDER=1>";
+echo "<TR>
+	<TD>Nom<TD>$nom";
+		</TR>
+echo "<TR><TD>Prenom<TD>$prenom";</TR>
+echo "<TR><TD>Téléphone<TD>$tel";</TR>
+echo "<TR><TD>Adresse<TD>$adresse";</TR>
+echo "</TABLE><P>";
+?>
+</body>
+</html>
